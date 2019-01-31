@@ -7,6 +7,7 @@ import {ProfileModule} from './components/profile/profile.module';
 import {DashboardModule} from './components/dashboard/dashboard.module';
 import {CrashModule} from './components/crash/crash.module';
 import {HeaderComponent} from './core/header/header.component';
+import {FormsModule} from '@angular/forms';
 
 
 
@@ -20,7 +21,8 @@ import {HeaderComponent} from './core/header/header.component';
     AppRoutingModule,
     ProfileModule,
     DashboardModule,
-    CrashModule
+    CrashModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

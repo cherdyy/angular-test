@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./crash.component.css']
 })
 export class CrashComponent implements OnInit {
-
+  text : string = 'VLAD';
   constructor() { }
 
   ngOnInit() {
