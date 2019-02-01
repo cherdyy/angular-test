@@ -1,10 +1,19 @@
 <div class="wrapper">
   <mat-card>
-    <form [formGroup]="form" novalidate>
+    <form  novalidate>
       <mat-form-field>
-        <input matInput formControlName="task">
+        <input matInput>
       </mat-form-field>
-      <button mat-raised-button>ADD</button>
+      <button mat-raised-button color="primary">ADD</button>
     </form>
+  </mat-card>
+</div>
+
+<div class="task__list">
+  <mat-card class="item">
+    <button mat-icon-button color="black">
+      <mat-icon>clear</mat-icon>
+    </button>
+    <span></span>
   </mat-card>
 </div>

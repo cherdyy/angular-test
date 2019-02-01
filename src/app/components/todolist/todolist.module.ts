@@ -4,7 +4,7 @@ import { TodolistRoutingModule } from './todolist-routing.module';
 import { TodolistComponent } from './todolist.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatButtonModule, MatCardModule, MatFormFieldModule, MatInputModule} from '@angular/material';
+import {MatButtonModule, MatCardModule, MatFormFieldModule, MatIconModule, MatInputModule} from '@angular/material';
 
 
 @NgModule({
@@ -18,7 +18,8 @@ import {MatButtonModule, MatCardModule, MatFormFieldModule, MatInputModule} from
     MatInputModule,
     MatFormFieldModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    MatIconModule
   ]
 })
 export class TodolistModule { }
