@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todolist.component.css']
 })
 export class TodolistComponent implements OnInit {
-  tasks: object[] = [];
+
+  tasks: { label: string, done: boolean }[] = [];
+
 
   ngOnInit() {
 
@@ -24,6 +26,5 @@ export class TodolistComponent implements OnInit {
   }
   line__through(index: number){
     this.tasks[index].done = !this.tasks[index].done;
-    console.log(this.tasks[index].done)
   }
 }
