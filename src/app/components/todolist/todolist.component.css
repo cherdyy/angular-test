@@ -1,3 +1,21 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-
+.line__through {
+  text-decoration: line-through;
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.wrapper {
+  margin-top: 50px;
+}
+.content {
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.item {
+  min-width: 400px;
+}
