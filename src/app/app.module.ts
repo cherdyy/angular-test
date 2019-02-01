@@ -7,7 +7,9 @@ import {ProfileModule} from './components/profile/profile.module';
 import {DashboardModule} from './components/dashboard/dashboard.module';
 import {CrashModule} from './components/crash/crash.module';
 import {HeaderComponent} from './core/header/header.component';
-import {FormsModule} from '@angular/forms';
+import {TodolistModule} from './components/todolist/todolist.module';
+
+
 
 
 
@@ -22,7 +24,7 @@ import {FormsModule} from '@angular/forms';
     ProfileModule,
     DashboardModule,
     CrashModule,
-    FormsModule
+    TodolistModule
   ],
   providers: [],
   bootstrap: [AppComponent]
