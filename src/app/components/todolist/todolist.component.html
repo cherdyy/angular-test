@@ -2,22 +2,22 @@
   <mat-card class="content">
     <form  novalidate>
       <mat-form-field>
-        <input matInput #newTask >
+        <input matInput #newTask>
       </mat-form-field>
-      <button mat-raised-button color="primary" (click)="addTask(newTask.value)">ADD</button>
-      <span class="task__count">TASKS: {{task__count}}</span>
+      <button (click)="addTask(newTask.value)" color="primary" mat-raised-button>ADD</button>
+      <span class="task__count">TASKS: {{tasks.length}}</span>
     </form>
   </mat-card>
 </div>
 
-<div class="task__list" *ngFor="let task of tasks; let i = index">
+<div *ngFor="let task of tasks; let i = index" class="task__list">
   <mat-card class="item">
-    <button mat-icon-button (click)="deleteElement(i)">
+    <button (click)="deleteTask(i)" mat-icon-button>
       <mat-icon>clear</mat-icon>
     </button>
-    <button mat-icon-button (click)="line__through(i)">
+    <button (click)="lineThrough(i)" mat-icon-button>
       <mat-icon>done</mat-icon>
     </button>
-    <span [ngClass]="{line__through: tasks[i].done}">{{task.label}}</span>
+    <span [class.line__through]="tasks[i].done">{{task.label}}</span>
   </mat-card>
 </div>
