@@ -2,9 +2,10 @@
   <mat-card class="content">
     <form  novalidate>
       <mat-form-field>
-        <input matInput #newTask>
+        <input matInput #newTask >
       </mat-form-field>
       <button mat-raised-button color="primary" (click)="addTask(newTask.value)">ADD</button>
+      <span class="task__count">TASKS: {{task__count}}</span>
     </form>
   </mat-card>
 </div>

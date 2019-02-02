@@ -19,3 +19,7 @@ div {
 .item {
   min-width: 400px;
 }
+.task__count {
+  margin-left: 15px;
+}
+
