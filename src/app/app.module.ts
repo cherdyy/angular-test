@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {ProfileModule} from './components/profile/profile.module';
-import {DashboardModule} from './components/dashboard/dashboard.module';
-import {CrashModule} from './components/crash/crash.module';
 import {HeaderComponent} from './core/header/header.component';
 import {TodolistModule} from './components/todolist/todolist.module';
+import {MatMenuModule} from '@angular/material/menu';
+
+
+
 
 
 
@@ -21,10 +21,8 @@ import {TodolistModule} from './components/todolist/todolist.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProfileModule,
-    DashboardModule,
-    CrashModule,
-    TodolistModule
+    TodolistModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

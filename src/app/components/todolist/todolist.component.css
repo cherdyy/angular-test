@@ -12,14 +12,15 @@ div {
   margin-top: 50px;
 }
 .content {
-  min-width: 400px;
+  width: 400px;
   display: flex;
   justify-content: center;
 }
 .item {
-  min-width: 400px;
+  width: 400px;
 }
-.task__count {
+.task-count {
   margin-left: 15px;
 }
-
+.label-task {
+}
