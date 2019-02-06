@@ -2,7 +2,7 @@
   <mat-card class="content">
     <form  novalidate>
       <mat-form-field>
-        <input matInput #newTask>
+        <input placeholder="Enter new task" matInput #newTask>
       </mat-form-field>
       <button (click)="addTask(newTask.value)" color="primary" mat-raised-button>ADD</button>
       <span class="task-count">TASKS: {{tasks.length}}</span>

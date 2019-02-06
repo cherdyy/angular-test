@@ -1,26 +1,28 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 .line__through {
   text-decoration: line-through;
 }
+
 div {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
+
 .wrapper {
   margin-top: 50px;
 }
+
 .content {
   width: 400px;
   display: flex;
   justify-content: center;
 }
+
 .item {
   width: 400px;
 }
+
 .task-count {
   margin-left: 15px;
-}
-.label-task {
 }
