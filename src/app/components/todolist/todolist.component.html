@@ -1,24 +1,22 @@
-<div class="wrapper">
+<div class="wrapper row enter-task">
   <mat-card class="content">
     <form  novalidate>
       <mat-form-field>
         <input placeholder="Enter new task" matInput #newTask>
       </mat-form-field>
-      <button (click)="addTask(newTask.value)" color="primary" mat-raised-button>ADD</button>
+      <button (click)="addTask(newTask.value); newTask.value=''" color="primary" mat-raised-button>ADD</button>
       <span class="task-count">TASKS: {{tasks.length}}</span>
     </form>
   </mat-card>
 </div>
 
-<div *ngFor="let task of tasks; let i = index" class="task__list">
+<div *ngFor="let task of tasks; let i = index" class="task-list row">
   <mat-card class="item">
-    <button (click)="deleteTask(i)" mat-icon-button>
-      <mat-icon>clear</mat-icon>
+    <button (click)="deleteTask(i)" mat-icon-button mat-raised-button class="bk-of-clear">
+      <mat-icon>delete</mat-icon>
     </button>
-    <button (click)="lineThrough(i)" mat-icon-button>
-      <mat-icon>done</mat-icon>
-    </button>
-    <span [class.line__through]="tasks[i].done" class="label-task">{{task.label}}</span>
+    <span [class.line-through]="tasks[i].done" class="label-task">{{task.label}}</span>
+    <mat-checkbox (click)="lineThrough(i)" class="state-of-task"></mat-checkbox>
   </mat-card>
 </div>
 

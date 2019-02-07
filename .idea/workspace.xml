@@ -3,29 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fb29168c-4d9c-4d41-873d-a3e43a6a6605" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/crash/crash-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/crash/crash.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/crash/crash.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/crash/crash.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/crash/crash.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/dashboard/dashboard-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/dashboard/dashboard.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/dashboard/dashboard.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/dashboard/dashboard.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/dashboard/dashboard.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/profile/profile-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/profile/profile.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/profile/profile.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/profile/profile.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/profile/profile.module.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/todolist/todolist.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/todolist/todolist.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/todolist/todolist.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/todolist/todolist.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/todolist/todolist.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/todolist/todolist.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/todolist/todolist.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/todolist/todolist.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/header/header.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -40,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/components/todolist/todolist.component.css">
+        <entry file="file://$PROJECT_DIR$/src/app/core/header/header.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="184">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -83,15 +63,15 @@
         <option value="$PROJECT_DIR$/src/app/components/todolist/todolist-routing.module.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/core/header/header.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/components/todolist/todolist.component.ts" />
         <option value="$PROJECT_DIR$/src/app/components/sign-in/sign-in.module.ts" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/components/regestration/regestration-routing.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/core/header/header.component.html" />
         <option value="$PROJECT_DIR$/src/app/components/todolist/todolist.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/todolist/todolist.component.ts" />
         <option value="$PROJECT_DIR$/src/app/components/todolist/todolist.component.html" />
         <option value="$PROJECT_DIR$/src/app/components/todolist/todolist.component.css" />
+        <option value="$PROJECT_DIR$/src/app/core/header/header.component.html" />
       </list>
     </option>
   </component>
@@ -131,14 +111,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angular-test" type="b2602c69:ProjectViewProjectNode" />
@@ -241,11 +213,14 @@
       <workItem from="1549147248429" duration="2267000" />
       <workItem from="1549185533059" duration="240000" />
       <workItem from="1549186558720" duration="202000" />
+      <workItem from="1549542553354" duration="3238000" />
+      <workItem from="1549557475536" duration="1942000" />
+      <workItem from="1549570111026" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53720000" />
+    <option name="totallyTimeSpent" value="59498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -306,13 +281,6 @@
     <entry file="file://$PROJECT_DIR$/src/app/components/profile/profile.component.css" />
     <entry file="file://$PROJECT_DIR$/src/app/components/crash/crash.module.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/components/crash/crash-routing.module.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -338,16 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/todolist/todolist.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/sign-in/sign-in.module.ts" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -359,16 +317,6 @@
     <entry file="file://$PROJECT_DIR$/src/app/components/regestration/regestration.component.html" />
     <entry file="file://$PROJECT_DIR$/src/app/components/regestration/regestration-routing.module.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/components/regestration/regestration.module.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -376,13 +324,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/core/header/header.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -406,17 +347,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/todolist/todolist.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/todolist/todolist.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="690">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/todolist/todolist.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/todolist/todolist.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/core/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>

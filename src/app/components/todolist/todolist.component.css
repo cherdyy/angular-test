@@ -1,15 +1,15 @@
 
-.line__through {
+.line-through {
   text-decoration: line-through;
 }
 
-div {
+.row {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.wrapper {
+.enter-task {
   margin-top: 50px;
 }
 
@@ -21,8 +21,22 @@ div {
 
 .item {
   width: 400px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .task-count {
   margin-left: 15px;
+}
+.state-of-task {
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bk-of-clear {
+  background-color: deeppink;
+  margin-right: 10px;
+}
+.label-task {
+  margin-top: 5px;
 }

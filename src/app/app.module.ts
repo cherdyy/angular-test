@@ -4,11 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HeaderComponent} from './core/header/header.component';
 import {TodolistModule} from './components/todolist/todolist.module';
-import {MatMenuModule} from '@angular/material/menu';
-
-
-
-
 
 
 
@@ -21,8 +16,7 @@ import {MatMenuModule} from '@angular/material/menu';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TodolistModule,
-    MatMenuModule
+    TodolistModule
   ],
   providers: [],
   bootstrap: [AppComponent]
