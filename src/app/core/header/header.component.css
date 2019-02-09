@@ -1,6 +1,19 @@
-ul, li , a{
-  display: flex;
-  justify-content: center;
-  margin: 0 30px;
+.sidenav-container {
+  height: 100%;
 }
 
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  display: flex;
+  justify-content: space-between;
+}
+#log-in {
+  float: right;
+}

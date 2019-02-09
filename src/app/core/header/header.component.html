@@ -1,10 +1,23 @@
-<div class="header">
-    <ul class="menu">
-      <li class="menu__item">
-        <a routerLink="/todolist">TODOLIST</a>
-      </li>
-      <li class="menu__item">
-        <a routerLink="/">SIGN IN</a>
-      </li>
-    </ul>
-</div>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="/todolist">TODOLIST</a>
+      <a mat-list-item href="#">BLOG</a>
+      <a mat-list-item href="#">PROFILE</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>Angular-test</span>
+      <button mat-raised-button id="log-in">Log in</button>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
