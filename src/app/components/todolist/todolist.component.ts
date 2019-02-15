@@ -11,25 +11,28 @@ export class TodolistComponent {
    * Array of task for todo list
    * @type {{ label: string, done: boolean }[]}
    */
-  tasks: { label: string, done: boolean }[] = [];
+  tasks: { label: string, done: boolean }[];
 
   /**
    * @ignore
    */
-  constructor() {}
+  constructor() {
+    this.tasks = this.getTasksFromLocalStorage();
+  }
 
   /**
    * Add new task
    * @param {string} task
    */
   addTask(task: string) {
-    let newTask = {
+    const newTask = {
       label: task,
       done: false,
     };
     if (newTask.label !== '') {
       this.tasks.push(newTask);
     }
+    this.saveTasks();
   }
 
   /**
@@ -38,6 +41,7 @@ export class TodolistComponent {
    */
   deleteTask(index: number) {
     this.tasks.splice(index, 1);
+    this.saveTasks();
   }
 
   /**
@@ -46,6 +50,21 @@ export class TodolistComponent {
    */
   lineThrough(index: number) {
     this.tasks[index].done = !this.tasks[index].done;
+    this.saveTasks();
+  }
+
+  /**
+   * Save tasks array to local storage
+   */
+  saveTasks(): void {
+    localStorage.setItem('tasks', JSON.stringify(this.tasks));
+  }
+
+  /**
+   * Get tasks array from local storage
+   */
+  getTasksFromLocalStorage(): any[] {
+    return JSON.parse(localStorage.getItem('tasks')) || [];
   }
 
 }
